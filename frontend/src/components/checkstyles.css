@@ -1,0 +1,85 @@
+/* CheckDateStyles.css */
+.check-by-date-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.date-label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: larger;
+  color: #333;
+}
+
+#datePicker {
+  padding: 10px; /* Adjust padding for a neater appearance */
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  width: 200px; /* Adjust width for uniformity */
+}
+
+#datePicker:hover {
+  border-color: orange;
+}
+
+/* Bright and vibrant selected date */
+#datePicker::selection {
+  background-color: orange;
+   color: white;
+}
+.data-display {
+  margin-top: 20px;
+}
+
+.no-data {
+  color: #ff5722;
+}
+
+.present-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Arial", sans-serif;
+}
+
+.total-present {
+  font-size: 16px;
+  color: #777;
+}
+
+.table-container {
+  margin: 20px auto;
+}
+
+.orange-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.orange-table th {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border: 1px solid #4c4949;
+}
+
+.orange-table td {
+  border: 1px solid #4c4949;
+  padding: 10px;
+  color: #333;
+}
+
+.orange-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.thank-you {
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}

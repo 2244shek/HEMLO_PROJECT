@@ -1,0 +1,95 @@
+/* checkstyles.css */
+
+/* General styles */
+.check-by-id-container body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ebe4e4;
+  margin: 0;
+  padding: 0;
+}
+
+.check-by-id-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #c3c1a6;
+  border-radius: 8px;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.id-label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.id-label input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 15px;
+}
+
+.search-box button {
+  padding: 8px 16px;
+  background-color: #f3722c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #ff6347;
+  transform: scale(1.05);
+}
+
+/* Table styles */
+.orange-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orange-table th,
+.orange-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.orange-table th {
+  background-color: #f3722c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.orange-table tbody tr:nth-child(even) {
+  background-color: #f7ede2;
+}
+
+.orange-table tbody tr:hover {
+  background-color: #ffd6a5;
+}
+
+searchResult {
+  border: 1 px solid black;
+  display: block;
+}
